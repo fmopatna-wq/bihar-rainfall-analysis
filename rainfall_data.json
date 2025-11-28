@@ -1,0 +1,382 @@
+[
+  {
+    "district": "ARARIA",
+    "rainy_days_2021": 85,
+    "rainy_days_2022": 67,
+    "rainy_days_2023": 88,
+    "rainy_days_2024": 78,
+    "rainy_days_2025": 154,
+    "total_rainy_days": 472,
+    "avg_rainy_days": 94.4
+  },
+  {
+    "district": "ARWAL",
+    "rainy_days_2021": 64,
+    "rainy_days_2022": 40,
+    "rainy_days_2023": 65,
+    "rainy_days_2024": 51,
+    "rainy_days_2025": 94,
+    "total_rainy_days": 314,
+    "avg_rainy_days": 62.8
+  },
+  {
+    "district": "AURANGABAD",
+    "rainy_days_2021": 72,
+    "rainy_days_2022": 55,
+    "rainy_days_2023": 73,
+    "rainy_days_2024": 68,
+    "rainy_days_2025": 142,
+    "total_rainy_days": 410,
+    "avg_rainy_days": 82.0
+  },
+  {
+    "district": "BANKA",
+    "rainy_days_2021": 70,
+    "rainy_days_2022": 55,
+    "rainy_days_2023": 78,
+    "rainy_days_2024": 83,
+    "rainy_days_2025": 144,
+    "total_rainy_days": 430,
+    "avg_rainy_days": 86.0
+  },
+  {
+    "district": "BEGUSARAI",
+    "rainy_days_2021": 62,
+    "rainy_days_2022": 48,
+    "rainy_days_2023": 68,
+    "rainy_days_2024": 62,
+    "rainy_days_2025": 104,
+    "total_rainy_days": 344,
+    "avg_rainy_days": 68.8
+  },
+  {
+    "district": "BHABUA (KAIMUR)",
+    "rainy_days_2021": 66,
+    "rainy_days_2022": 51,
+    "rainy_days_2023": 71,
+    "rainy_days_2024": 54,
+    "rainy_days_2025": 108,
+    "total_rainy_days": 350,
+    "avg_rainy_days": 70.0
+  },
+  {
+    "district": "BHAGALPUR",
+    "rainy_days_2021": 77,
+    "rainy_days_2022": 48,
+    "rainy_days_2023": 79,
+    "rainy_days_2024": 59,
+    "rainy_days_2025": 116,
+    "total_rainy_days": 379,
+    "avg_rainy_days": 75.8
+  },
+  {
+    "district": "BHOJPUR",
+    "rainy_days_2021": 74,
+    "rainy_days_2022": 44,
+    "rainy_days_2023": 81,
+    "rainy_days_2024": 53,
+    "rainy_days_2025": 110,
+    "total_rainy_days": 362,
+    "avg_rainy_days": 72.4
+  },
+  {
+    "district": "BUXAR",
+    "rainy_days_2021": 62,
+    "rainy_days_2022": 39,
+    "rainy_days_2023": 69,
+    "rainy_days_2024": 60,
+    "rainy_days_2025": 98,
+    "total_rainy_days": 328,
+    "avg_rainy_days": 65.6
+  },
+  {
+    "district": "DARBHANGA",
+    "rainy_days_2021": 74,
+    "rainy_days_2022": 53,
+    "rainy_days_2023": 74,
+    "rainy_days_2024": 57,
+    "rainy_days_2025": 102,
+    "total_rainy_days": 360,
+    "avg_rainy_days": 72.0
+  },
+  {
+    "district": "EAST CHAMPARAN",
+    "rainy_days_2021": 73,
+    "rainy_days_2022": 72,
+    "rainy_days_2023": 85,
+    "rainy_days_2024": 50,
+    "rainy_days_2025": 98,
+    "total_rainy_days": 378,
+    "avg_rainy_days": 75.6
+  },
+  {
+    "district": "GAYA",
+    "rainy_days_2021": 71,
+    "rainy_days_2022": 48,
+    "rainy_days_2023": 76,
+    "rainy_days_2024": 66,
+    "rainy_days_2025": 128,
+    "total_rainy_days": 389,
+    "avg_rainy_days": 77.8
+  },
+  {
+    "district": "GOPALGANJ",
+    "rainy_days_2021": 74,
+    "rainy_days_2022": 53,
+    "rainy_days_2023": 75,
+    "rainy_days_2024": 52,
+    "rainy_days_2025": 98,
+    "total_rainy_days": 352,
+    "avg_rainy_days": 70.4
+  },
+  {
+    "district": "JAHANABAD",
+    "rainy_days_2021": 63,
+    "rainy_days_2022": 45,
+    "rainy_days_2023": 70,
+    "rainy_days_2024": 51,
+    "rainy_days_2025": 98,
+    "total_rainy_days": 327,
+    "avg_rainy_days": 65.4
+  },
+  {
+    "district": "JAMUI",
+    "rainy_days_2021": 58,
+    "rainy_days_2022": 58,
+    "rainy_days_2023": 72,
+    "rainy_days_2024": 64,
+    "rainy_days_2025": 126,
+    "total_rainy_days": 378,
+    "avg_rainy_days": 75.6
+  },
+  {
+    "district": "KATIHAR",
+    "rainy_days_2021": 74,
+    "rainy_days_2022": 54,
+    "rainy_days_2023": 77,
+    "rainy_days_2024": 69,
+    "rainy_days_2025": 140,
+    "total_rainy_days": 414,
+    "avg_rainy_days": 82.8
+  },
+  {
+    "district": "KHAGARIA",
+    "rainy_days_2021": 67,
+    "rainy_days_2022": 42,
+    "rainy_days_2023": 70,
+    "rainy_days_2024": 57,
+    "rainy_days_2025": 132,
+    "total_rainy_days": 368,
+    "avg_rainy_days": 73.6
+  },
+  {
+    "district": "KISHANGANJ",
+    "rainy_days_2021": 100,
+    "rainy_days_2022": 91,
+    "rainy_days_2023": 95,
+    "rainy_days_2024": 89,
+    "rainy_days_2025": 166,
+    "total_rainy_days": 541,
+    "avg_rainy_days": 108.2
+  },
+  {
+    "district": "LAKHISARAI",
+    "rainy_days_2021": 62,
+    "rainy_days_2022": 52,
+    "rainy_days_2023": 67,
+    "rainy_days_2024": 70,
+    "rainy_days_2025": 120,
+    "total_rainy_days": 371,
+    "avg_rainy_days": 74.2
+  },
+  {
+    "district": "MADHEPURA",
+    "rainy_days_2021": 75,
+    "rainy_days_2022": 51,
+    "rainy_days_2023": 76,
+    "rainy_days_2024": 52,
+    "rainy_days_2025": 108,
+    "total_rainy_days": 362,
+    "avg_rainy_days": 72.4
+  },
+  {
+    "district": "MADHUBANI",
+    "rainy_days_2021": 78,
+    "rainy_days_2022": 54,
+    "rainy_days_2023": 80,
+    "rainy_days_2024": 59,
+    "rainy_days_2025": 51,
+    "total_rainy_days": 322,
+    "avg_rainy_days": 64.4
+  },
+  {
+    "district": "MONGHYR (MUNGER)",
+    "rainy_days_2021": 66,
+    "rainy_days_2022": 49,
+    "rainy_days_2023": 71,
+    "rainy_days_2024": 56,
+    "rainy_days_2025": 59,
+    "total_rainy_days": 301,
+    "avg_rainy_days": 60.2
+  },
+  {
+    "district": "MUZAFFARPUR",
+    "rainy_days_2021": 74,
+    "rainy_days_2022": 51,
+    "rainy_days_2023": 75,
+    "rainy_days_2024": 46,
+    "rainy_days_2025": 45,
+    "total_rainy_days": 291,
+    "avg_rainy_days": 58.2
+  },
+  {
+    "district": "NALANDA",
+    "rainy_days_2021": 73,
+    "rainy_days_2022": 60,
+    "rainy_days_2023": 78,
+    "rainy_days_2024": 61,
+    "rainy_days_2025": 57,
+    "total_rainy_days": 329,
+    "avg_rainy_days": 65.8
+  },
+  {
+    "district": "NAWADA",
+    "rainy_days_2021": 68,
+    "rainy_days_2022": 56,
+    "rainy_days_2023": 73,
+    "rainy_days_2024": 70,
+    "rainy_days_2025": 63,
+    "total_rainy_days": 330,
+    "avg_rainy_days": 66.0
+  },
+  {
+    "district": "PATNA",
+    "rainy_days_2021": 61,
+    "rainy_days_2022": 48,
+    "rainy_days_2023": 66,
+    "rainy_days_2024": 48,
+    "rainy_days_2025": 56,
+    "total_rainy_days": 279,
+    "avg_rainy_days": 55.8
+  },
+  {
+    "district": "PURNEA",
+    "rainy_days_2021": 74,
+    "rainy_days_2022": 63,
+    "rainy_days_2023": 80,
+    "rainy_days_2024": 56,
+    "rainy_days_2025": 60,
+    "total_rainy_days": 333,
+    "avg_rainy_days": 66.6
+  },
+  {
+    "district": "ROHTAS",
+    "rainy_days_2021": 57,
+    "rainy_days_2022": 49,
+    "rainy_days_2023": 68,
+    "rainy_days_2024": 56,
+    "rainy_days_2025": 67,
+    "total_rainy_days": 297,
+    "avg_rainy_days": 59.4
+  },
+  {
+    "district": "SAHARSA",
+    "rainy_days_2021": 75,
+    "rainy_days_2022": 44,
+    "rainy_days_2023": 75,
+    "rainy_days_2024": 51,
+    "rainy_days_2025": 42,
+    "total_rainy_days": 287,
+    "avg_rainy_days": 57.4
+  },
+  {
+    "district": "SAMASTIPUR",
+    "rainy_days_2021": 70,
+    "rainy_days_2022": 44,
+    "rainy_days_2023": 71,
+    "rainy_days_2024": 45,
+    "rainy_days_2025": 53,
+    "total_rainy_days": 283,
+    "avg_rainy_days": 56.6
+  },
+  {
+    "district": "SARAN",
+    "rainy_days_2021": 66,
+    "rainy_days_2022": 44,
+    "rainy_days_2023": 72,
+    "rainy_days_2024": 36,
+    "rainy_days_2025": 51,
+    "total_rainy_days": 269,
+    "avg_rainy_days": 53.8
+  },
+  {
+    "district": "SHEIKHPURA",
+    "rainy_days_2021": 59,
+    "rainy_days_2022": 47,
+    "rainy_days_2023": 65,
+    "rainy_days_2024": 56,
+    "rainy_days_2025": 55,
+    "total_rainy_days": 282,
+    "avg_rainy_days": 56.4
+  },
+  {
+    "district": "SHEOHAR",
+    "rainy_days_2021": 81,
+    "rainy_days_2022": 49,
+    "rainy_days_2023": 83,
+    "rainy_days_2024": 43,
+    "rainy_days_2025": 52,
+    "total_rainy_days": 308,
+    "avg_rainy_days": 61.6
+  },
+  {
+    "district": "SITAMARHI",
+    "rainy_days_2021": 73,
+    "rainy_days_2022": 48,
+    "rainy_days_2023": 78,
+    "rainy_days_2024": 47,
+    "rainy_days_2025": 43,
+    "total_rainy_days": 289,
+    "avg_rainy_days": 57.8
+  },
+  {
+    "district": "SIWAN",
+    "rainy_days_2021": 66,
+    "rainy_days_2022": 50,
+    "rainy_days_2023": 71,
+    "rainy_days_2024": 42,
+    "rainy_days_2025": 54,
+    "total_rainy_days": 283,
+    "avg_rainy_days": 56.6
+  },
+  {
+    "district": "SUPAUL",
+    "rainy_days_2021": 85,
+    "rainy_days_2022": 76,
+    "rainy_days_2023": 87,
+    "rainy_days_2024": 59,
+    "rainy_days_2025": 59,
+    "total_rainy_days": 366,
+    "avg_rainy_days": 73.2
+  },
+  {
+    "district": "VAISHALI",
+    "rainy_days_2021": 68,
+    "rainy_days_2022": 57,
+    "rainy_days_2023": 73,
+    "rainy_days_2024": 45,
+    "rainy_days_2025": 58,
+    "total_rainy_days": 301,
+    "avg_rainy_days": 60.2
+  },
+  {
+    "district": "WEST CHAMPARAN",
+    "rainy_days_2021": 87,
+    "rainy_days_2022": 71,
+    "rainy_days_2023": 89,
+    "rainy_days_2024": 61,
+    "rainy_days_2025": 66,
+    "total_rainy_days": 374,
+    "avg_rainy_days": 74.8
+  }
+]

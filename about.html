@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>कार्यप्रणाली | बिहार वर्षा विश्लेषण डैशबोर्ड</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+Devanagari:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        :root {
+            --primary: #1e4d4b;
+            --secondary: #8b6f47;
+            --accent: #4a90a4;
+            --bg: #faf9f7;
+            --text: #2d3748;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+        }
+        
+        .hindi-text {
+            font-family: 'Noto Sans Devanagari', sans-serif;
+        }
+        
+        .display-font {
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .methodology-card {
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            padding: 32px;
+            margin: 20px 0;
+            border-left: 4px solid var(--primary);
+        }
+        
+        .step-number {
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-right: 16px;
+        }
+        
+        .data-table {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        }
+        
+        .data-table th {
+            background: var(--primary);
+            color: white;
+            padding: 16px;
+            text-align: left;
+        }
+        
+        .data-table td {
+            padding: 12px 16px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        
+        .data-table tr:hover {
+            background-color: #f8fafc;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm">
+        <div class="max-w-7xl mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-8">
+                    <h1 class="text-xl font-bold text-gray-800 hindi-text">बिहार वर्षा विश्लेषण</h1>
+                    <div class="hidden md:flex space-x-6">
+                        <a href="index.html" class="text-gray-600 hover:text-gray-900 transition-colors">डैशबोर्ड</a>
+                        <a href="#methodology" class="text-teal-600 font-medium">कार्यप्रणाली</a>
+                        <a href="#data-sources" class="text-gray-600 hover:text-gray-900 transition-colors">डेटा स्रोत</a>
+                    </div>
+                </div>
+                <a href="index.html" class="bg-gradient-to-r from-teal-600 to-blue-600 text-white px-6 py-2 rounded-lg hover:shadow-lg transition-all duration-300">
+                    डैशबोर्ड पर वापस
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-teal-600 to-blue-600 text-white py-20">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h1 class="display-font text-5xl font-bold mb-6">
+                <span>कार्यप्रणाली और डेटा स्रोत</span>
+            </h1>
+            <p class="text-xl hindi-text max-w-3xl mx-auto">
+                इस व्यापक वर्षा विश्लेषण डैशबोर्ड के निर्माण में उपयोग की गई वैज्ञानिक पद्धतियों और डेटा प्रक्रिया तकनीकों का विस्तृत विवरण
+            </p>
+        </div>
+    </section>
+
+    <!-- Methodology Section -->
+    <section id="methodology" class="py-20">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="display-font text-4xl font-bold text-gray-800 mb-4">
+                    <span class="gradient-text">विश्लेषण कार्यप्रणाली</span>
+                </h2>
+                <p class="text-xl text-gray-600 hindi-text">डेटा संग्रह से लेकर दृश्य प्रस्तुति तक की पूर्ण प्रक्रिया</p>
+            </div>
+
+            <!-- Step 1: Data Collection -->
+            <div class="methodology-card">
+                <div class="flex items-start mb-6">
+                    <div class="step-number">1</div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-3 hindi-text">डेटा संग्रह और प्राप्ति</h3>
+                        <p class="text-gray-600 leading-relaxed hindi-text mb-4">
+                            बिहार के सभी 38 जिलों के लिए 2021-2025 की अवधि के दौरान वार्षिक वर्षा दिवसों का डेटा सरकारी स्रोतों से एकत्र किया गया। प्रत्येक जिले के लिए मुख्य मानवर्धन केंद्रों से रिकॉर्ड प्राप्त किए गए।
+                        </p>
+                        <div class="bg-teal-50 p-4 rounded-lg">
+                            <h4 class="font-semibold text-teal-800 mb-2 hindi-text">डेटा बिंदु:</h4>
+                            <ul class="text-teal-700 space-y-1 hindi-text">
+                                <li>• कुल जिले: 38</li>
+                                <li>• समय अवधि: 5 वर्ष (2021-2025)</li>
+                                <li>• डेटा बिंदु: प्रत्येक जिले के लिए वार्षिक वर्षा दिवस</li>
+                                <li>• कुल रिकॉर्ड: 190 वार्षिक प्रविष्टियां</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 2: Data Processing -->
+            <div class="methodology-card">
+                <div class="flex items-start mb-6">
+                    <div class="step-number">2</div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-3 hindi-text">डेटा प्रसंस्करण और सफाई</h3>
+                        <p class="text-gray-600 leading-relaxed hindi-text mb-4">
+                            कच्चे डेटा को संरचित प्रारूप में परिवर्तित किया गया। मिसिंग मानों की पहचान की गई, असंगतियों को हल किया गया, और गुणवत्ता जांच की गई। प्रत्येक जिले के लिए 5-वर्षीय कुल और औसत की गणना की गई।
+                        </p>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div class="bg-blue-50 p-4 rounded-lg">
+                                <h4 class="font-semibold text-blue-800 mb-2 hindi-text">प्रसंस्करण चरण:</h4>
+                                <ul class="text-blue-700 space-y-1 hindi-text text-sm">
+                                    <li>• CSV से JSON रूपांतरण</li>
+                                    <li>• डुप्लिकेट हटाना</li>
+                                    <li>• मिसिंग वैल्यू हैंडलिंग</li>
+                                    <li>• डेटा प्रकार सत्यापन</li>
+                                </ul>
+                            </div>
+                            <div class="bg-green-50 p-4 rounded-lg">
+                                <h4 class="font-semibold text-green-800 mb-2 hindi-text">गणनाएं:</h4>
+                                <ul class="text-green-700 space-y-1 hindi-text text-sm">
+                                    <li>• 5-वर्षीय कुल वर्षा दिवस</li>
+                                    <li>• औसत वार्षिक वर्षा दिवस</li>
+                                    <li>• वार्षिक कुल राज्य स्तर</li>
+                                    <li>• जिलेवार विचलन विश्लेषण</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 3: Statistical Analysis -->
+            <div class="methodology-card">
+                <div class="flex items-start mb-6">
+                    <div class="step-number">3</div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-3 hindi-text">सांख्यिकीय विश्लेषण</h3>
+                        <p class="text-gray-600 leading-relaxed hindi-text mb-4">
+                            डेटा पर विभिन्न सांख्यिकीय परीक्षण किए गए। प्रवृत्ति विश्लेषण, विचलन गणना, और सहसंबंध अध्ययन किए गए। परिणामों की सांख्यिकीय महत्वता की जांच की गई।
+                        </p>
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <h4 class="font-semibold text-gray-800 mb-3 hindi-text">विश्लेषण विधियां:</h4>
+                            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                                <div class="text-center">
+                                    <div class="text-2xl font-bold text-teal-600">346.1</div>
+                                    <div class="text-sm text-gray-600 hindi-text">औसत वर्षा दिवस</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-2xl font-bold text-teal-600">±67.3</div>
+                                    <div class="text-sm text-gray-600 hindi-text">मानक विचलन</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-2xl font-bold text-teal-600">56%</div>
+                                    <div class="text-sm text-gray-600 hindi-text">उच्चतम विचलन</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 4: Visualization -->
+            <div class="methodology-card">
+                <div class="flex items-start mb-6">
+                    <div class="step-number">4</div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-3 hindi-text">दृश्य प्रस्तुति और डैशबोर्ड विकास</h3>
+                        <p class="text-gray-600 leading-relaxed hindi-text mb-4">
+                            विश्लेषण परिणामों को इंटरैक्टिव दृश्य के रूप में प्रस्तुत किया गया। ECharts.js लाइब्रेरी का उपयोग करके विभिन्न प्रकार के चार्ट और हीटमैप बनाए गए। रिस्पॉन्सिव डिज़ाइन सुनिश्चित किया गया।
+                        </p>
+                        <div class="bg-purple-50 p-4 rounded-lg">
+                            <h4 class="font-semibold text-purple-800 mb-2 hindi-text">प्रौद्योगिकी स्टैक:</h4>
+                            <div class="grid grid-cols-2 md:grid-cols-4 gap-2 text-sm">
+                                <span class="bg-white px-3 py-1 rounded-full text-center">HTML5</span>
+                                <span class="bg-white px-3 py-1 rounded-full text-center">Tailwind CSS</span>
+                                <span class="bg-white px-3 py-1 rounded-full text-center">JavaScript</span>
+                                <span class="bg-white px-3 py-1 rounded-full text-center">ECharts.js</span>
+                                <span class="bg-white px-3 py-1 rounded-full text-center">Anime.js</span>
+                                <span class="bg-white px-3 py-1 rounded-full text-center">Leaflet</span>
+                                <span class="bg-white px-3 py-1 rounded-full text-center">JSON</span>
+                                <span class="bg-white px-3 py-1 rounded-full text-center">Python</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Data Sources Section -->
+    <section id="data-sources" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="display-font text-4xl font-bold text-gray-800 mb-4">
+                    <span class="gradient-text">डेटा स्रोत और गुणवत्ता</span>
+                </h2>
+                <p class="text-xl text-gray-600 hindi-text">डेटा की उत्पत्ति, विश्वसनीयता और सीमाओं का विवरण</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+                <!-- Data Quality -->
+                <div class="methodology-card">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4 hindi-text">डेटा गुणवत्ता मानक</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-3 h-3 bg-green-500 rounded-full"></div>
+                            <span class="text-gray-700 hindi-text">100% डेटा पूर्णता - कोई मिसिंग वैल्यू नहीं</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-3 h-3 bg-green-500 rounded-full"></div>
+                            <span class="text-gray-700 hindi-text">सरकारी रिकॉर्ड से सत्यापित स्रोत</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-3 h-3 bg-green-500 rounded-full"></div>
+                            <span class="text-gray-700 hindi-text">5 वर्षों की लगातार समयावधि</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-3 h-3 bg-yellow-500 rounded-full"></div>
+                            <span class="text-gray-700 hindi-text">जिलेवार मुख्य मापन केंद्रों से डेटा</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Limitations -->
+                <div class="methodology-card">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4 hindi-text">सीमाएं और अस्वीकरण</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-start space-x-3">
+                            <div class="w-3 h-3 bg-orange-500 rounded-full mt-2"></div>
+                            <span class="text-gray-700 hindi-text">डेटा केवल मुख्य मापन केंद्रों तक सीमित है</span>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <div class="w-3 h-3 bg-orange-500 rounded-full mt-2"></div>
+                            <span class="text-gray-700 hindi-text">वर्षा तीव्रता का डेटा शामिल नहीं है</span>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <div class="w-3 h-3 bg-orange-500 rounded-full mt-2"></div>
+                            <span class="text-gray-700 hindi-text">जिले के भीतर स्थानिक विचलन पर विचार नहीं किया गया</span>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <div class="w-3 h-3 bg-orange-500 rounded-full mt-2"></div>
+                            <span class="text-gray-700 hindi-text">डेटा में मौसम विज्ञान एजेंसियों की सीमा शामिल है</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sample Data Table -->
+            <div class="methodology-card">
+                <h3 class="text-2xl font-bold text-gray-800 mb-6 hindi-text">नमूना डेटा प्रारूप</h3>
+                <div class="overflow-x-auto">
+                    <table class="data-table w-full">
+                        <thead>
+                            <tr>
+                                <th class="hindi-text">जिला</th>
+                                <th class="hindi-text">2021</th>
+                                <th class="hindi-text">2022</th>
+                                <th class="hindi-text">2023</th>
+                                <th class="hindi-text">2024</th>
+                                <th class="hindi-text">2025</th>
+                                <th class="hindi-text">कुल</th>
+                                <th class="hindi-text">औसत</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="font-medium">किशनगंज</td>
+                                <td>100</td>
+                                <td>91</td>
+                                <td>95</td>
+                                <td>89</td>
+                                <td>166</td>
+                                <td class="font-bold text-teal-600">541</td>
+                                <td>108.2</td>
+                            </tr>
+                            <tr>
+                                <td class="font-medium">अररिया</td>
+                                <td>85</td>
+                                <td>67</td>
+                                <td>88</td>
+                                <td>78</td>
+                                <td>154</td>
+                                <td class="font-bold text-teal-600">472</td>
+                                <td>94.4</td>
+                            </tr>
+                            <tr>
+                                <td class="font-medium">पटना</td>
+                                <td>61</td>
+                                <td>48</td>
+                                <td>66</td>
+                                <td>48</td>
+                                <td>56</td>
+                                <td class="font-bold text-teal-600">279</td>
+                                <td>55.8</td>
+                            </tr>
+                            <tr>
+                                <td class="font-medium">सारण</td>
+                                <td>66</td>
+                                <td>44</td>
+                                <td>72</td>
+                                <td>36</td>
+                                <td>51</td>
+                                <td class="font-bold text-teal-600">269</td>
+                                <td>53.8</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="text-sm text-gray-600 mt-4 hindi-text">
+                    <strong>नोट:</strong> यह तालिका केवल प्रतिनिधि उदाहरण के लिए है। पूर्ण डेटासेट में सभी 38 जिलों के रिकॉर्ड शामिल हैं।
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-16 bg-white">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="display-font text-3xl font-bold text-gray-800 mb-6">
+                <span class="gradient-text">प्रश्न या सुझाव?</span>
+            </h2>
+            <p class="text-lg text-gray-600 mb-8 hindi-text">
+                यदि आपके पास डेटा स्रोत, विश्लेषण विधियों, या परिणामों के बारे में कोई प्रश्न हैं, तो हम आपके सुझावों का स्वागत करते हैं।
+            </p>
+            <div class="bg-teal-50 p-6 rounded-xl">
+                <p class="text-teal-800 hindi-text">
+                    <strong>डेटा अद्यतन:</strong> यह विश्लेषण 2021-2025 तक उपलब्ध डेटा पर आधारित है। 
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <div class="mb-6">
+                <h3 class="text-2xl font-bold mb-2 hindi-text">बिहार वर्षा विश्लेषण डैशबोर्ड</h3>
+                <p class="text-gray-400 hindi-text">वैज्ञानिक दृष्टिकोण से तैयार किया गया व्यापक मानसून विश्लेषण</p>
+            </div>
+            <div class="border-t border-gray-700 pt-6">
+                <p class="text-gray-400 hindi-text">
+                    Data Source: IMD MC Patna (Official Rainfall Records)
+                                Analysis Prepared By: © Lal Kamal 
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
